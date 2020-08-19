@@ -1,0 +1,21 @@
+GET http://localhost:3000/pizza/
+
+###
+
+GET http://localhost:3000/pizza/5eee651f739f8c674fd736ee
+
+###
+
+POST http://localhost:3000/pizza
+Content-Type: application/json
+
+{
+    "name": "new Margherita",
+    "image": "pizza.png",
+    "price": 520,
+    "size": "medium"
+}
+
+###
+
+DELETE http://localhost:3000/pizza/5f3d0d94e273621eb44b91f2
